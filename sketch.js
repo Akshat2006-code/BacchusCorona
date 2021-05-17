@@ -3,15 +3,15 @@
 var play
 
 function preload(){
-  photo=loadImage("download.png");
+  photo=loadImage("corona.jpg");
   
   }
 
   function setup() {
     canvas = createCanvas(1800,4000);
-    play=createSprite(490,440,30,30);
+    play=createSprite(480,490,30,30);
     play.addImage(photo); 
-    play.scale=2.1;
+    play.scale=1.3;
   }
 
 
@@ -25,7 +25,7 @@ function draw() {
 
   fill("Red");
   textSize(45);
-  text("Welcome to Bacchus Marsh College!", 140, 200);
+  text("Welcome to Bacchus Marsh College!", 130, 200);
   fill("Blue");
   textSize(40);
   text("This is to celebrate for passing 2020 successfully!", 40, 240);
